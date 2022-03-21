@@ -1,0 +1,114 @@
+.logo1{
+    width:150px;
+    margin-left:1%;
+   padding-top: -125%;
+}
+#logo{
+     display:flex; 
+}
+ #menu{
+   width: -10%;
+    padding-top: 17%;
+} 
+header{
+    display: flex;
+}
+.searchBar{
+    margin-left: 18%;
+    margin-top: 2%;
+}
+.bar{
+    width: 12cm;
+    height: 0.8cm;
+    border-color: black;
+    color: black;
+ 
+}
+.bar1{
+    height: 0.9cm;
+    border-color: black;
+    color: black;
+}
+
+#bell{
+    margin-left: 14%;
+    margin-top: 160%;
+   color: black;
+   height: 25px;
+   cursor:pointer;
+}
+#bell:hover{
+    transform: scale(1.8);
+}
+.login{
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.login:hover{
+    color: red;
+    cursor: pointer;
+}
+/* styling part of header is done upto here  */
+.bottom{
+    
+/* margin-left: 20%; */
+}
+.b1{
+   width: 5.3cm;
+   height: 1cm;
+   border-radius: 20px;
+   border-style:solid;
+   background-color: black;
+   color: white;
+   font-size: larger;
+   
+}
+.b1:hover{
+    color: red;
+    transform: scale(1.1);
+}
+/* styling of bottom part is done here  */
+.sidepart{
+    /* padding-bottom: 20%; */
+}
+.b2{
+    display: block;
+    width: 7cm;
+    height: 3cm;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    
+}
+.b2:hover{
+    color: red;
+    transform: scale(1.1);
+    
+}
+  .main{
+    display: flex;
+    
+    
+}   
+/*main part is starting from here */
+img1{
+}
+.part1,.part2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1cm;
+    margin-top: 0.6cm;
+
+}
+.para1{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2cm;
+    list-style-type:none;
+    font-size:larger;
+    font-style:italic;
+}
+body{
+    width: auto;
+    height: auto;
+}
